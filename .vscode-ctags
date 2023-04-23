@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INI_H	ini.h	9;"	d
+INI_VERSION	ini.h	11;"	d
+data	ini.c	/^  char *data;$/;"	m	struct:ini_t	file:
+discard_line	ini.c	/^static char* discard_line(ini_t *ini, char *p) {$/;"	f	file:
+end	ini.c	/^  char *end;$/;"	m	struct:ini_t	file:
+ini_free	ini.c	/^void ini_free(ini_t *ini) {$/;"	f
+ini_get	ini.c	/^const char* ini_get(ini_t *ini, const char *section, const char *key) {$/;"	f
+ini_load	ini.c	/^ini_t* ini_load(const char *filename) {$/;"	f
+ini_sget	ini.c	/^int ini_sget($/;"	f
+ini_t	ini.c	/^struct ini_t {$/;"	s	file:
+ini_t	ini.h	/^typedef struct ini_t ini_t;$/;"	t	typeref:struct:ini_t
+main	main.c	/^int main()$/;"	f
+next	ini.c	/^static char* next(ini_t *ini, char *p) {$/;"	f	file:
+parse_conf	main.c	/^program_t* parse_conf(char* conf_file)$/;"	f
+program	main.c	/^typedef struct program {$/;"	s	file:
+program_t	main.c	/^} program_t;$/;"	t	typeref:struct:program	file:
+split_data	ini.c	/^static void split_data(ini_t *ini) {$/;"	f	file:
+strcmpci	ini.c	/^static int strcmpci(const char *a, const char *b) {$/;"	f	file:
+trim_back	ini.c	/^static void trim_back(ini_t *ini, char *p) {$/;"	f	file:
+unescape_quoted_value	ini.c	/^static char *unescape_quoted_value(ini_t *ini, char *p) {$/;"	f	file:
