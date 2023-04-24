@@ -1,0 +1,4 @@
+/conf.d
+/supervisord
+*.o
+*.o.d
